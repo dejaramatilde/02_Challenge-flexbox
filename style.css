@@ -26,6 +26,10 @@ body{
     font-weight: 200px;
     letter-spacing: 18px;
 }
+.left-sub{
+    color: hsl(0, 6%, 24%);
+    font-weight: 600px;
+}
 .left-text{
     margin-top: 25px;
     color: hsl(0, 36%, 70%);
@@ -35,7 +39,14 @@ body{
 .left-form{
     margin-top: 25px;
 }
-.left-sub{
-    color: black;
-    font-weight: 600px;
+.left-form-input{
+    height: 50px;
+    border: 1px solid  hsl(0, 36%, 70%);
+    border-radius: 30px;
+
 }
+.left-form-input::placeholder{
+    color: hsl(0, 36%, 70%);
+    padding-left: 23px;
+}
+
